@@ -1,0 +1,74 @@
+
+$primary-white:rgba(255,255,255,0.3);
+$red: rgb(255, 0, 0);
+$snow: rgb(255, 250, 250);
+$blue: rgb(0, 0, 255);
+$engineblue: rgb(173, 216, 230);
+$orange: rgb(255, 197, 0);
+.container{
+  max-width: 760px;
+  min-width: 400px;
+  min-height: 500px;
+  margin: 5px auto;
+}
+
+.orbit image{
+  width: 20%;
+  margin: 0 auto;
+  height:auto;
+}
+
+
+  /*icon styles*/
+.fi-social-facebook {
+  color: $blue;
+  font-size: 2rem;
+}
+.fi-social-youtube {
+  color: $red;
+  font-size: 2rem;
+}
+.fi-social-pinterest {
+  color: $orange;
+  font-size: 2rem;
+}
+i.fi-social-instagram {
+  color: $orange;
+  font-size: 2rem;
+}
+i.fi-social-tumblr {
+  color: $engineblue;
+  font-size: 2rem;
+}
+.fi-social-twitter {
+  color: $red;
+  font-size: 2rem;
+}
+
+  .img-container {
+    position: relative;
+
+    .caption-container {
+      position: absolute;
+      bottom: 5%;
+      left: 0%;
+      background-color:snow;
+      color: blue;
+      opacity: 0.7;
+      width: 100%;
+    }
+
+    .caption-content {
+      padding:(10px);
+      margin: 0%;
+    }
+  }
+
+  .alert-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+

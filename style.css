@@ -1,0 +1,58 @@
+.container {
+  max-width: 760px;
+  min-width: 400px;
+  min-height: 500px;
+  margin: 5px auto; }
+
+.orbit image {
+  width: 20%;
+  margin: 0 auto;
+  height: auto; }
+
+/*icon styles*/
+.fi-social-facebook {
+  color: blue;
+  font-size: 2rem; }
+
+.fi-social-youtube {
+  color: red;
+  font-size: 2rem; }
+
+.fi-social-pinterest {
+  color: #ffc500;
+  font-size: 2rem; }
+
+i.fi-social-instagram {
+  color: #ffc500;
+  font-size: 2rem; }
+
+i.fi-social-tumblr {
+  color: lightblue;
+  font-size: 2rem; }
+
+.fi-social-twitter {
+  color: red;
+  font-size: 2rem; }
+
+.img-container {
+  position: relative; }
+  .img-container .caption-container {
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    background-color: snow;
+    color: blue;
+    opacity: 0.7;
+    width: 100%; }
+  .img-container .caption-content {
+    padding: 10px;
+    margin: 0%; }
+
+.alert-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999; }
+
+/*# sourceMappingURL=style.css.map */
